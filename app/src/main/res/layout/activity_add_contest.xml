@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout2"
+    android:layout_width="fill_parent"
+    android:background="@drawable/gradle"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        android:text="ADD CONTEST"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/white"
+        android:textSize="50dp"
+        app:fontFamily="@font/akronim" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:hint="Contest Name"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:hint="From Date"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:hint="To Date"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:hint="From time"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:id="@+id/dat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="474dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:hint="From time"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sub"
+        android:text="Add"
+        android:textSize="25dp"
+        android:textColor="#7E1D15"
+        android:layout_marginTop="548dp"
+        android:layout_marginLeft="150dp"
+        />
+
+
+</RelativeLayout>

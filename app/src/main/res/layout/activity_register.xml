@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vector1"
+    tools:context=".Register">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="35dp"
+        android:background="#00FFFFFF"
+        android:text="CODE HUB"
+        android:textColor="@android:color/black"
+        android:textColorHighlight="@android:color/white"
+        android:textSize="65dp"
+        app:fontFamily="@font/akronim"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="110dp"
+        android:text="LEARN HOW TO CODE"
+        android:textColor="#2C2929"
+        android:textSize="25sp"
+        app:fontFamily="@font/akronim"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <EditText
+        android:id="@+id/fullName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="201dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:hint="Full Name"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:hint="Email-id"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"></EditText>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginRight="20dp"
+        android:background="#000000"
+        android:hint="Phone Number"
+        android:inputType="textPhonetic"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"></EditText>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="80dp"
+        android:background="#F1EBEB"
+        android:fontFamily="@font/aclonica"
+        android:padding="8dp"
+        android:text="REGISTER"
+        android:textColor="#000000"
+        android:textSize="22dp">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="575dp"
+        android:text="Already a user? Login here"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        app:fontFamily="@font/aclonica"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+</RelativeLayout>

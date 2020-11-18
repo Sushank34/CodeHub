@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/vector1"
+    android:layout_height="match_parent"
+    tools:context=".title">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:src="@drawable/to"/>
+
+        <ImageView
+            android:id="@+id/imageVie2"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/codehubn"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="159dp"
+            android:layout_marginTop="375dp"
+            android:fontFamily="sans-serif-black"
+            android:text="CodeHub"
+            android:textColor="#A53333"
+            android:textSize="45dp"
+            app:fontFamily="@font/archivo_black" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="500sp"
+            android:background="#FFFFFF"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Enhance the art of coding"
+            android:textColor="#3E3939"
+            android:textSize="30sp" />
+
+
+    </RelativeLayout>
+
+
